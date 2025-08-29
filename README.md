@@ -1,31 +1,32 @@
 # SCT_DS_1
 # 🚗 Car Evaluation Dataset Visualization
-
 Dataset: Car Evaluation (UCI / Kaggle)
+
 Type: All features are categorical
 
 # 📈 Visualizations
 
-The project includes bar charts for all categorical attributes in the dataset:
+The project includes bar charts for all categorical features in the dataset:
 
 # 1. Bar Charts
 
-Displays the frequency distribution of each attribute (buying, maint, doors, persons, lug_boot, safety, and class).
-Helpful for identifying category balance, dominance, and trends across features.
+Plots the frequency distribution of each attribute (buying, maint, doors, persons, lug_boot, safety, and class).
+
+Helpful for understanding category balance, dominance, and trends across features.
 
 # 2. Grid Layout
 
-All features are arranged in a grid of subplots, making it easy to compare distributions side by side.
+All attributes are visualized side by side in a subplot grid for quick comparisons.
 
 # 3. (Optional Extension)
 
-Add heatmaps, pairplots, or feature-to-class comparisons (e.g., safety vs. class) for deeper EDA.
+Add comparative plots (e.g., safety vs. class) or use advanced libraries like Seaborn/Plotly for better aesthetics.
 
 # 🛠 Tools & Libraries
 
 Python 3.x
 
-pandas – for data handling
+pandas – for data manipulation
 
 matplotlib – for plotting categorical distributions
 
@@ -33,7 +34,7 @@ matplotlib – for plotting categorical distributions
 
 1. Make sure you have Python installed.
 
-2. Install dependencies using:
+2. Install dependencies:
 
 pip install pandas matplotlib
 
