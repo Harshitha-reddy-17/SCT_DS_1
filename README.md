@@ -26,6 +26,7 @@ Add heatmaps, pairplots, or feature-to-class comparisons (e.g., safety vs. class
 Python 3.x
 
 pandas – for data handling
+
 matplotlib – for plotting categorical distributions
 
 # 📌 How to Run
@@ -33,7 +34,9 @@ matplotlib – for plotting categorical distributions
 1. Make sure you have Python installed.
 
 2. Install dependencies using:
+
 pip install pandas matplotlib
 
 3. Run the script:
+
 python car_eval_viz.py
